@@ -1,6 +1,6 @@
 # EXERCÍCIO DE HTML | ORIGAMID
 
-1 - Crie um projeto chamado cinema.
+1 - Crie um projeto chamado cinema.</br>
 2 - Crie um arquivo index.html
 2.1 - O título do arquivo e o título de nível 1 devem conter o nome do projeto.
 3 - Crie um diretório dentro do projeto com nome de: estados
