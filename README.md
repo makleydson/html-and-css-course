@@ -4,8 +4,14 @@
 
 <center>_Prof. André Rafael | Origamid_</center>
 
-
-
 ## **Assuntos vistos:**
 
-:heavy_check_mark: Sintaxe Básica
+:heavy_check_mark: Sintaxe Básica;
+
+:heavy_check_mark: CSS Básico;
+
+:heavy_check_mark: Seletores;
+
+:heavy_check_mark: Background e cores;
+
+:heavy_check_mark: Box Model;
