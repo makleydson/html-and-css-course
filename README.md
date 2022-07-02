@@ -15,3 +15,7 @@
 :heavy_check_mark: Background e cores;
 
 :heavy_check_mark: Box Model;
+
+:heavy_check_mark: Display;
+
+:heavy_check_mark: Imagens;
