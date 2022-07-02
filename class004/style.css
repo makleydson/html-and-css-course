@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+  font-style: italic;
+}
+
+.item {
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 20px;
+  display: grid;/*Todos os elementos dentro de item se comportarão como grid*/
+}
+
+.comprar {
+  text-decoration: none;
+  color: #103;
+  background-color: #a8f;
+  border-radius: 4px;
+  padding: 10px 20px;
+  /* display: inline-block; Não precisarei, pois utilizarei o display grid*/
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;/*Define o total e o tamanho das colunas - fr é uma unidade de medida utilizada em grids*/
+  gap: 20px; /*cria uma distância entre os elementos do grid horizontal e verticalmente.*/
+}
