@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0px;
+
+  display: grid;/*Já alinho todo o conteúdo ao centro através do justify*/
+  gap: 60px;
+
+  justify-items: center;/*Justificar os itens ao centro.*/
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;/*Para que a imagem não cresça mais que o tamanho da tela.*/
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;/*Altura entre as linhas*/
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;/*Para adicionar a quebra de conteúdo quando diminuimos a page*/
+  gap: 20px;
+  justify-content: center;/*sempre que o menu quebrar é alinhado ao centro*/
+}
+
+.menu a {
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #000;
+
+  text-transform: uppercase;/*Colocar letras em maiúsculas*/
+}
+
+.conteudo {
+  display: grid; /*Dividir o conteúdo em colunas*/
+  grid-template-columns: 1fr 1fr;/*Duas colunas no mesmo tamanho*/
+  max-width: 1000px;/*Dar um limite ao conteúdo*/
+}
+
+.introducao {
+  background: #fff;
+  padding: 40px;/*Margem interna*/
+  text-align: right;/*Alinhar o texto à direita*/
+
+  display: grid;/*Os elementos não vão mais se comportar como inline*/
+  gap: 20px;
+
+  align-content: center;
+  justify-items: end;
+
+  position: relative;/*para que o detalhe possa ser posicionado em relação ao seu container.*/
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #e21;
+
+  position: absolute;/*Não vai influenciar em nada nos demais elementos, mas ai será em relação ao body*/
+  top: 30px;
+  right: -30px;
+}
+
+.botao {
+  background: #e21;
+  color: #fff;
+  text-transform: uppercase;
+  
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;/*Alinhar o item específico dentro do grid.*/
+
+}
+
+.vantagens {
+  background: #fff;
+  padding: 40px;
+
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;/*o auto vai pegar a largura exata do ícone (mas poderíamos definir um valor fixo) e o fr vai distribuir o restante.*/
+  gap: 10px 20px;/*Primeiro para linhas e segundo para as colunas*/
+  padding: 20px;
+}
+
+.vantagens-item p {
+  grid-column: 2;/*para que o texto fique apenas na segunda coluna.*/
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;/*Como definimos no body o grid e o justify center então o rodapé não ocuparia toda a tela sem o width.*/
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;/*Para que ele respeite o width e não faça a soma com o padding estourando o layout.*/
+}

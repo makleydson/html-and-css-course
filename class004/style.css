@@ -36,6 +36,8 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;/*Define o total e o tamanho das colunas - fr é uma unidade de medida utilizada em grids*/
+  height: 800px;
+  grid-template-columns: auto auto;/*Define o total e o tamanho das colunas - fr é uma unidade de medida utilizada em grids*/
   gap: 20px; /*cria uma distância entre os elementos do grid horizontal e verticalmente.*/
+  place-content: start;
 }
